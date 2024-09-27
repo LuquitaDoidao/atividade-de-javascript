@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcoes.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        all = 1
+        notas = []
+
+        while(all != 4){
+            var num = parseFloat(prompt("Digite a "+(all)+"° nota do estudante"))
+            notas.push(num)
+            all += 1 
+
+        }
+
+        let letra = prompt("Digite uma letra (A ou P)")
+
+        
+        alert("a media é: "+(avaliar(notas, letra)))
+    </script>
+
+</body>
+</html>

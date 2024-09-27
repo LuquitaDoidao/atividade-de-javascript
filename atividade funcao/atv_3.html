@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcoes.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        while(true){
+            var num1 = parseInt(prompt("Digite um numero entre 10 e 99"))
+            if((num1 < 10) || (num1 > 99)){
+                alert("esse numero é invalido, comece tudo de novo")
+            } else {
+                var num2 = parseInt(prompt("Digite outro numero entre 10 e 99"))
+                if((num2 < 10) || (num2 > 99)){
+                alert("esse numero é invalido, comece tudo de novo")
+            } else {
+                break
+            }
+        }
+        }
+        
+        alert("o novo numero formado é: "+(reordenar(num1, num2)))
+    </script>
+
+</body>
+</html>
