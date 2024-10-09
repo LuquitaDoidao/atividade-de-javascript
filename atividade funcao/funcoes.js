@@ -138,3 +138,23 @@ function anagrama(palavra){
     return(nova.join(''))
 
 }
+
+function bhaskara(a, b, c) {
+    var discriminante = (b * b) - (4 * a * c);
+
+    var raizDiscriminante = Math.sqrt(discriminante);
+
+    var bhas1 = ((-b) + raizDiscriminante) / (2 * a);
+    var bhas2 = ((-b) - raizDiscriminante) / (2 * a);
+
+    return("os valores são: "+(bhas1)+" e "+(bhas2))
+}
+
+function pitagoras(cat1, cat2) {
+    var pri = cat1 * cat1
+    var seg = cat2 * cat2
+
+    var hip = Math.sqrt(pri + seg)
+
+    return("a hipotenusa é igual a "+(hip))
+}
